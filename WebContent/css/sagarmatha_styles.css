@@ -1,0 +1,176 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Oxygen', sans-serif;
+}
+
+header{
+	position:relative;
+	background-color:black;
+	height:100px;
+}
+
+#logo{
+	
+	position:absolute;
+	left:0;
+	
+	color:red;
+	font-weight:bold;
+	font-size:1.5em;
+	height:100px;
+	margin:0;
+	background: url("/img/namaste.jpg") no-repeat;
+	
+	.visible-lg-*;
+	.visible-md-*;
+}
+
+#title{
+	
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+div#title>h1{
+
+	font-size:4em;
+	color:red;
+	font-weight:bold;
+	margin:0;
+}
+
+#navigation{
+
+	position:absolute;
+	right:0;
+}
+
+#googleMap{
+	margin-top:1%;
+	
+	
+	width:100%;
+	height:400px;
+}
+
+#stats{
+	margin-top:1%;
+}
+
+#main_section{
+	position:relative;
+	height:400px;
+}
+#chrome_notice{
+	position:absolute;
+	left:2px;
+}
+#chrome_msg{
+	width:300px;
+}
+#chrome_logo{
+	 width:100px;
+	 height:100px;
+}
+#log_in{
+	position:absolute;
+	
+    top: 50%;
+    left: 50%;
+     -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#jobs{
+	position:absolute;
+	right:2px;
+	background-color:yellow;
+}
+#foot{
+	position:relative;
+	height:100px;
+	background-color:black;
+	text-align:center;
+	
+}
+#foot_msg{
+	 color:white;
+	 position:absolute;
+	 top:50%;
+	 left:50%;
+	 -ms-transform:translate(-50%, -50%);
+	 transform: translate(-50%, -50%);
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+	
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px){
+	
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+#googleMap{
+	margin-top:1%;
+	
+	
+	width:95%;
+	height:400px;
+}
+#foot_msg{
+		font-size:0.75em;
+		color:white;
+		position:absolute;
+		top:50%;
+		left:50%;
+		-ms-transform:translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+}	
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	#googleMap{
+		display:none;
+	}
+	#chrome_msg{
+		display:none;
+	}
+	#jobs{
+		display:none;
+	}
+	#log_in{
+		width:25%;
+	}
+	div#title>h1{
+
+		font-size:2em;
+		color:red;
+		font-weight:bold;
+		margin:0;
+	}	
+	#chrome_logo{
+		width:50px;
+		height:50px;
+	}
+	#foot_msg{
+		font-size:0.75em;
+		color:white;
+		position:absolute;
+		top:50%;
+		left:50%;
+		-ms-transform:translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+	}
+
+}

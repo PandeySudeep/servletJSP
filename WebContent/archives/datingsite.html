@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+#profilecreate { 
+	position: absolute;
+	visibility: visible;
+	left: 220px; 
+	top: 0px;
+	height: 200px;
+	width: 350px;
+	z-index: 200; 
+}</style>
+ 
+</head>
+<body>
+<div  id="profilecreate">
+    <form action="createprofile" method="POST">
+  Profile Name:<br><input type="text" name="name"><br>
+  Age:<br><input type="text" name="age"><br>
+  Address:<br><input type="text" name="address"><br>
+  Email(we won't share it with others!!):<br><input type="text" name="email"><br>
+  Hobby(Max characters):<br><textarea name="hobby" cols="50" rows="5"></textarea><br>
+  Gender:<br> <select name="gender">
+				<option value="male">MALE</option>
+				<option value="female">FEMALE</option>
+			   </select><br>
+  About Myself(Max characters):<br><textarea name="about" cols="50" rows="5"></textarea><br>
+  What I am looking for(Max characters):<br><textarea name="lookingfor" cols="50" rows="5"></textarea><br>
+  According to me, Life is:(Max characters):<br><textarea name="life" cols="50" rows="5"></textarea><br>
+  Favorite quote:(Max characters):<br><textarea name="quote" cols="50" rows="5"></textarea><br>
+  Other Info:<br><textarea name="otherinfo" cols="50" rows="5"></textarea><br>
+  
+  <input type="submit" value="Create Profile">
+			</form></div>
+ 
+</body>
+</html>

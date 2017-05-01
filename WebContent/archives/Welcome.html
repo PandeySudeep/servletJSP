@@ -1,0 +1,134 @@
+<html>
+	<header>
+		<h2><font size="12"><center>&#2361;&#2366;&#2350;&#2381;&#2352;&#2379;&#0032;&#2310;&#2347;&#2381;&#2344;&#2379;</center></font></h2>
+		<img src="C:\Users\Sudeep.Pandey\Desktop\JSP\nepalflag.png" alt="Nepal Flag" style="width:204px;height:120px;">
+		<p>&#2360;&#2369;&#2344;&#2381;&#2342;&#2352;&#0032;&#2358;&#2366;&#2344;&#2381;&#2340;&#0032;&#2357;&#2367;&#2358;&#2366;&#2354;</p>
+	</header>
+	
+	<head>
+		<style>
+
+		#locator { 
+	position: absolute;
+	visibility: visible;
+	left: 60px; 
+	top: 500px;
+	height: 100px;
+	width: 150px;
+	z-index: 200; 
+}
+#myform { 
+	position: absolute;
+	visibility: visible;
+	left: 120px; 
+	top: 300px;
+	height: 100px;
+	width: 350px;
+	z-index: 200; 
+}
+#myform2 { 
+	position: absolute;
+	visibility: visible;
+	left: 720px; 
+	top: 400px;
+	height: 100px;
+	width: 350px;
+	z-index: 200; 
+}
+
+#msg { 
+	position: absolute;
+	visibility: visible;
+	left: 420px; 
+	top: 100px;
+	height: 100px;
+	width: 350px;
+	z-index: 200; 
+}
+
+input {
+    margin-bottom:15px;
+}
+
+</style>
+</head>
+<body>
+
+<div id="locator">
+<img src="C:\Users\Sudeep.Pandey\Desktop\JSP\nepalflag.png" alt="Name" style="width:100px;height:75px;"><br>
+</div>
+
+<div id = "anthem">
+<p>contact us; anthem; rato ra chandra; image symbols; important links;case sensitive warning;fill out warning except phone;job available at panaly..;all technical issues
+report email;agreement </p>
+</div>
+
+<div  id="myform">
+    
+        
+            <form action="login" method="POST">
+  Username: <br><input type="text" name="loginname"><br>
+  Password:<br> <input type="password" name="loginpwd"><br>
+  <input type="submit" value="Log In">
+
+        </form>
+    
+</div>
+<div  id="msg">
+    
+        
+            <form action="messageforme" method="POST">
+  Message:<br> <input type="text" name="message"><br>
+ 
+  <input type="submit" value="SEND EMAIL TO HAMRO.COM">
+
+        </form>
+    
+</div>
+
+<div  id="myform2">
+    <form action="tryregister" method="POST">
+        First Name:<br>
+			<input type="text" name="firstname"/>
+			<br>
+			Last name:<br>
+			<input type="text" name="lastname" />
+			<br>
+			Desired Username:<br>
+			<input type="text" name="username"/>
+			<br>
+			Desired Password:<br>
+			<input type="password" name="pwd" />
+			<br>
+			Gender:<br>
+			
+			<select type="text" name="gender">
+				<option value="male">MALE</option>
+				<option value="female">FEMALE</option>
+			</select>
+			<br>
+			Age:<br>
+			<input type="text" name="age"/>
+			<br>
+			Email Address:<br>
+			<input type="text" name="email" />
+			<br>
+			Phone Number(Optional):<br>
+			<input type="text" name="phone" />
+			<br>
+			Country:<br>
+			<select type="text" name="nationality">
+				<option value="USA">USA</option>
+				<option value="CANADA">CANADA</option>
+				<option value="UK">UK</option>
+				<option value="AUSTRALIA">AUSTRALIA</option>
+				<option value="OTHER">OTHER</option>
+			</select> <br>
+            <input type="submit" name="country" value="Register" />
+            <input type="reset" value="Cancel" onclick="myFunction()" value="Reset form" />
+        </form>
+    
+</div>
+
+</body>
+</html>
