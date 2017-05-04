@@ -118,7 +118,7 @@
 			</article>
 			
 			<div style="width:100%;height:100px;background-color:black;color:red;text-align:justify;">
-				<p>&#2360;&#2381;&#2357;&#2366;&#2327;&#2340;&#0032;&#2331; <%out.print(session.getAttribute("sessionattr"));%></p>			
+				<p>Welcome <%out.print(session.getAttribute("sessionattr"));%></p>			
 				<p style="color:white;text-align:center">&copy;pAnalyticsTech Solutions. All Rights Reserved.</p>
 				
 			</div>

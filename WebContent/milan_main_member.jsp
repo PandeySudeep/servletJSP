@@ -134,10 +134,10 @@
 			<article>
 				
 				<h1>Welcome <%out.print(session.getAttribute("sessionattr"));%></h1>
-				<p>Swades.com would like to wish you luck in your partner search.</p>
-				<p>Swades.com plans to have Milan/Vivah segment of its service as a separate hosted private service soon.</p>
-				<p>Swades.com is an open source project for all Indian nationals interested to participate. The professionals accepted include - Analysts, Developers, Web Designers, Testers, Data Engineers. Please contact
-				 exec_rep@pandtek.com to apply and work at Swades.com.</p>
+				<p>Upakaar.com would like to wish you luck in your partner search.</p>
+				<p>Upakaar.com plans to have Milan/Vivah segment of its service as a separate hosted private service soon.</p>
+				<p>Upakaar.com is an open source project for all Indian nationals interested to participate. The professionals accepted include - Analysts, Developers, Web Designers, Testers, Data Engineers. Please contact
+				 exec_rep@pandtek.com to apply and work at Upakaar.com.</p>
 			</article>
 			
 			<footer style="color:red">&copy;pAnalyticsTech Solutions. All Rights Reserved.</footer>

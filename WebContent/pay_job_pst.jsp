@@ -97,7 +97,7 @@
 			<article>
 				<h1>Proceed to single job post</h1>
 				
-				<p>Please donate 1.99 USD to Swades.com for maintenance cost and support.</p>
+				<p>Please donate 1.99 USD to Upakaar.com for maintenance cost and support.</p>
 				
 				<form method="post" action="${initParam['posturl']}">
 					<input type="hidden" name="upload" value="1" /> 
@@ -117,7 +117,6 @@
 			<div style="width:100%;height:100px;background-color:black;color:red;text-align:justify;">
 				<p>Welcome <%out.print(session.getAttribute("sessionattr"));%></p>			
 				<p style="color:white;text-align:center">&copy;pAnalyticsTech Solutions. All Rights Reserved.</p>
-				
 			</div>
 
 	</body>

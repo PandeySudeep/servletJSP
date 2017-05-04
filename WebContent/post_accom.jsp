@@ -10,7 +10,7 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1">
     	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-		<title>Post Room/Accomodation</title>
+		<title>&#2313;&#2346;&#2325;&#2366;&#2352;</title>
 		
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 	
@@ -85,7 +85,7 @@
 		%>
 		<div class="container">
 			<header>
-				<h1 style="color:red">&#2360;&#2381;&#2357;&#2342;&#2375;&#2358;</h1>
+				<h1 style="color:red">&#2313;&#2346;&#2325;&#2366;&#2352;</h1>
 			</header>
 			<nav>
 				<ul>

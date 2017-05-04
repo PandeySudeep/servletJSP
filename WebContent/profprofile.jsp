@@ -8,7 +8,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
     	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-   		<title>Create Professional Profile</title>
+   		<title>&#2313;&#2346;&#2325;&#2366;&#2352;</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
 		
@@ -80,7 +80,7 @@
 		%>
 		<div class="container">
 			<header>
-				<h1 style="color:red">&#2360;&#2381;&#2357;&#2342;&#2375;&#2358;</h1>
+				<h1 style="color:red">&#2313;&#2346;&#2325;&#2366;&#2352;</h1>
 			</header>
 			<nav>
 				<ul>
@@ -91,15 +91,15 @@
 				<form style="width:40%" action="insertprofessional" method="POST">
 					<div class="form-group">
 						<label>First Name</label>
-						<input type="text" name="firstname" class="form-control">
+						<input type="text" name="firstname" class="form-control" required>
 					</div>
 					<div class="form-group">
 						<label>Last Name</label>
-						<input type="text" name="lastname" class="form-control">
+						<input type="text" name="lastname" class="form-control" required>
 					</div>
 					<div class="form-group">
 						<label>Profession Category</label>
-							<select type="text" name="profession" class="form-control">
+							<select type="text" name="profession" class="form-control" required>
 								<option value="lawyers">LAWYER</option>
 								<option value="doctors">DOCTOR</option>
 								<option value="businessmen">BUSINESS OWNER</option>
@@ -110,11 +110,11 @@
 					
 					<div class="form-group">
 						<label>Address</label>
-						<input type="text" name="address" class="form-control">
+						<input type="text" name="address" class="form-control" required>
 					</div>
 					<div class="form-group">
 						<label>Country</label>
-							<select type="text" name="nationality" class="form-control">
+							<select type="text" name="nationality" class="form-control" required>
 								<option value="USA">USA</option>
 								<option value="CANADA">CANADA</option>
 								<option value="UK">UK</option>
@@ -129,15 +129,15 @@
 					
 					<div class="form-group">
 						<label for="exampleInputEmail1">Email Address</label>
-						<input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+						<input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Email" required>
 					</div>
 					<div class="form-group">
 						<label>Contact Phone</label>
-						<input type="text" name="phone" class="form-control">
+						<input type="text" name="phone" class="form-control" required>
 					</div>
 					<div class="form-group">
 						<label>Other Details</label>
-						<textarea name="otherinfo" cols="50" rows="5" class="form-control"></textarea>	
+						<textarea name="otherinfo" cols="50" rows="5" class="form-control" required></textarea>	
 					</div>
 					
 					<button type="submit" class="btn btn-primary">Create</button>

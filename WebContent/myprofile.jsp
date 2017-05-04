@@ -24,8 +24,8 @@
     	<meta name="author" content="">
     	
     	<meta http-equiv="Pragma" content="no-cache"> 
- <meta http-equiv="Cache-Control"      content="no-cache"> 
-<meta http-equiv="Expires" content="Sat, 01 Dec 2012 00:00:00 GMT">
+ 		<meta http-equiv="Cache-Control"      content="no-cache"> 
+		<meta http-equiv="Expires" content="Sat, 01 Dec 2012 00:00:00 GMT">
     	<link rel="icon" href="img/favicon.ico">
 
     	<title>&#2350;&#2367;&#2354;&#2344;&#0032;&#2405;&#0032;&#2357;&#2367;&#2357;&#2366;&#2361;</title>

@@ -8,7 +8,7 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1">
     	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
    	
-   		<title>Contact Hamro</title>
+   		<title>&#2313;&#2346;&#2325;&#2366;&#2352;</title>
 	
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
@@ -107,7 +107,7 @@
 				</ul>
 			</nav>
 			<article>
-				<h1 id="msg_header">Send Message To HamroAafno</h1>
+				<h1 id="msg_header">Send Message To Upakaar</h1>
 				<form action="messageforme" method="POST">
 					<div class="form-group">
 						<label>Please include in your message- your name, email, phone number:</label>

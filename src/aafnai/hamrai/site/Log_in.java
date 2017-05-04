@@ -81,7 +81,7 @@ public class Log_in extends HttpServlet{
 										try{if(null!=stmt)stmt.close();}catch(SQLException e){e.getMessage();}
 										try{if(null!=con)con.close();}catch (SQLException e){out.print(e.getMessage());}
 										HttpSession session = request.getSession();
-										session.setMaxInactiveInterval(60);
+										session.setMaxInactiveInterval(7200);
 										session.setAttribute("sessionattr",login_name);
 										session.setAttribute("userpwd", login_pwd);
 										session.setAttribute("usremail", db_email);

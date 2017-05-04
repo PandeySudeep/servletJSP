@@ -18,7 +18,7 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1">
     	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
    	
-   		<title>&#2360;&#2381;&#2357;&#2342;&#2375;&#2358;</title>
+   		<title>&#2313;&#2346;&#2325;&#2366;&#2352;</title>
 	
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/sagarmatha_styles.css" rel="stylesheet">
@@ -1169,7 +1169,7 @@
 					<h2 id="logo">&#2332;&#2344;&#2344;&#2368;&#0032;&#2332;&#2344;&#2381;&#2350;&#2349;&#2370;&#2350;&#2367;&#2358;&#2381;&#2330;&#0032;&#2360;&#2381;&#2357;&#2352;&#2381;&#2327;&#2366;&#2342;&#2346;&#2367;&#0032;&#2327;&#2352;&#2368;&#2351;&#2360;&#2368;</h2>
 				</div>
 				<div id="title">
-					<h1>&#2360;&#2381;&#2357;&#2342;&#2375;&#2358;</h1>
+					<h1>&#2313;&#2346;&#2325;&#2366;&#2352;</h1>
 				</div>
 				
 				<div id="navigation" class="pull-left visible-md visible-lg">
@@ -1506,13 +1506,13 @@
 						<div class="form-group">
 							<label style="margin-left:30%">Username<sub>(case sensitive)</sub></label>
 							<div>
-								<input type="text" name="loginname" class="form-control">
+								<input type="text" name="loginname" class="form-control" required>
 							</div>
 						</div>
 						<div class="form-group">
 							<label for="inputPassword3" style="margin-left:30%">Password<sub>(case sensitive)</sub></label>
 							<div>
-								<input type="password" name="loginpwd" class="form-control">
+								<input type="password" name="loginpwd" class="form-control" required>
 							</div>
 						</div>
 						<div id="agreement">

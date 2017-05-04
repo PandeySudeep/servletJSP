@@ -101,7 +101,7 @@ public class SendEmailToProfessionals extends HttpServlet {
 			
 									if(receivers.size()>=1){
 											String SMTPhost = "localhost";
-											String from = "hamro_saathi@hamroaafno.com";
+											String from = "mitra@upakaar.com";
 											Properties props = new Properties(); 
 			
 											props.put("mail.smtp.host", SMTPhost);

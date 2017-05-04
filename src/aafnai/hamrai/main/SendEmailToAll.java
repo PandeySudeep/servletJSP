@@ -48,7 +48,7 @@ public class SendEmailToAll extends HttpServlet {
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
 		
-		String from = "hamro_saathi@hamroaafno.com";
+		String from = "mitra@upakaar.com";
 		
 		String country = (String)request.getParameter("country");
 		String msg = (String)request.getParameter("msg");

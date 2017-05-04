@@ -12,7 +12,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
   		  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
    
-		<title>&#2350;&#2367;&#2354;&#2344;</title>
+		<title>&#2313;&#2346;&#2325;&#2366;&#2352;</title>
 
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
@@ -137,7 +137,7 @@
 				</div>
 			</article>
 			<div style="width:100%;height:100px;background-color:black;color:red;text-align:justify;">
-				<p>&#2360;&#2381;&#2357;&#2366;&#2327;&#2340;&#0032;&#2331; <%out.print(session.getAttribute("sessionattr"));%></p>			
+				<p>Welcome <%out.print(session.getAttribute("sessionattr"));%></p>			
 				<p style="color:white;text-align:center">&copy;pAnalyticsTech Solutions. All Rights Reserved.</p>
 			</div>
 		</div>

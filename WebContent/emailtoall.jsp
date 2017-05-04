@@ -9,7 +9,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
     	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-   		<title>Email Send</title>
+   		<title>&#2313;&#2346;&#2325;&#2366;&#2352;</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
 		
@@ -128,7 +128,7 @@
 					
 			</article>
 			
-			<footer style="color:red">&#2360;&#2381;&#2357;&#2366;&#2327;&#2340;&#0032;&#2331; <%out.print(session.getAttribute("sessionattr"));%></footer>
+			<footer style="color:red">Welcome <%out.print(session.getAttribute("sessionattr"));%></footer>
 			
 		</div>
 	</body>

@@ -9,7 +9,7 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1">
     	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
    	
-		<title>Job Opportunity at HamroAafno</title>
+		<title>&#2313;&#2346;&#2325;&#2366;&#2352;</title>
 
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>	
@@ -110,7 +110,7 @@
 			<article>
 				<h1>Job Opening</h1>
 				<p>
-					HamroAafno.com has following job openings. For details contact exec_rep@pandtek.com
+					Upakaar.com has following job openings. For details contact exec_rep@pandtek.com
 					<ul>
   						<li>Sql Developer (Level: Intermediate)</li>
   						<li>Python Developer (Level: Basic Scripting Tasks)</li>
@@ -121,11 +121,11 @@
 				
 				
 				
-				<p>Hamroaafno.com is an open source project for all Nepalese nationals interested to participate. The professionals accepted include - Analysts, Developers, Web Designers, Testers, Data Engineers. Please contact
-				 exec_rep@pandtek.com to apply and work at Hamroaafno.com. Let's take ourselves to the next level.</p>
+				<p>Upakaar.com is an open source project for all interested to participate. The professionals accepted include - Analysts, Developers, Web Designers, Testers, Data Engineers. Please contact
+				 exec_rep@pandtek.com to apply and work at Upakaar.com. Let's take ourselves to the next level.</p>
 			</article>
 			
-			<footer style="color:red">&#2360;&#2381;&#2357;&#2366;&#2327;&#2340;&#0032;&#2331; <%out.print(session.getAttribute("sessionattr"));%></footer>
+			<footer style="color:red">Welcome</footer>
 			
 		</div>
 	</body>

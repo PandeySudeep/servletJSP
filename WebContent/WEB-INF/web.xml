@@ -43,7 +43,7 @@
   </context-param>
   <context-param>
     <param-name>returnurl</param-name>
-    <param-value>http://www.hamroaafno.com/PayPalController</param-value>
+    <param-value>http://www.upakaar.com/PayPalController</param-value>
   </context-param>
   <context-param>
     <param-name>returnurl2</param-name>
@@ -109,7 +109,7 @@
     <url-pattern>/editprofile.jsp</url-pattern>
     <url-pattern>/emailtoall.jsp</url-pattern>
     <url-pattern>/hamro_biz.jsp</url-pattern>
-    <url-pattern>/hamro_jobs.jsp</url-pattern>
+    <!--<url-pattern>/hamro_jobs.jsp</url-pattern>-->
     <url-pattern>/jobs.jsp</url-pattern>
     <url-pattern>/mil_inbox.jsp</url-pattern>
     <url-pattern>/mil_msg.jsp</url-pattern>

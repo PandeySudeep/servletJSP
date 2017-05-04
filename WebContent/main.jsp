@@ -9,7 +9,7 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1">
     	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
    	
-		<title>&#2346;&#2381;&#2352;&#2350;&#2369;&#2326;&#0032;&#2346;&#2344;&#2381;&#2344;&#2366;</title>
+		<title>&#2313;&#2346;&#2325;&#2366;&#2352;</title>
 
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>	
@@ -143,10 +143,10 @@
 			</nav>
 			<article>
 				<h1>ANNOUNCEMENTS</h1>
-				<p>Swades.com already has or plans to have implemented soon - SSL Certificate for data encryption and security. Please feel secured when using Swades.com.</p>
-				<p>Swades.com plans to have Milan/Vivah segment of its service as a separate hosted private service soon.</p>
-				<p>Swades.com is an open source project for all Indian nationals interested to participate. The professionals accepted include - Analysts, Developers, Web Designers, Testers, Data Engineers. Please contact
-				 exec_rep@pandtek.com to apply and work at Swades.com. New ideas and applications are always welcome.</p>
+				<p>Upakaar.com already has or plans to have implemented soon - SSL Certificate for data encryption and security. Please feel secured when using Upakaar.com.</p>
+				<p>Upakaar.com plans to have Milan/Vivah segment of its service as a separate hosted private service soon.</p>
+				<p>Upakaar.com is an open source project for all interested to participate. The professionals accepted include - Analysts, Developers, Web Designers, Testers, Data Engineers. Please contact
+				 exec_rep@pandtek.com to apply and work at Upakaar.com. New ideas and applications are always welcome.</p>
 			</article>
 			
 			<footer style="color:red">Welcome <%out.print(session.getAttribute("sessionattr"));%></footer>

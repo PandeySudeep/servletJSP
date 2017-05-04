@@ -62,7 +62,7 @@ public class Register extends HttpServlet {
 		if((fst_name.length()<1)||(lst_name.length()<1)||(usr_name.length()<1)||(pass_word.length()<1)
 				||(email_add.length()<1)||(gender.length()<1)||(age.length()<1)||(nationality.length()<1)==true){
 			
-			request.setAttribute("message", "&#2325;&#2371;&#2346;&#2351;&#2366;&#0032;&#2347;&#2352;&#2381;&#2350;&#0032;&#2346;&#2369;&#2352;&#2376;&#0032;&#2349;&#2352;&#2381;&#2344;&#2369;&#2361;&#2379;&#2360;&#2381;&#2404;");
+			request.setAttribute("message", "Please enter all items.");
 			request.setAttribute("link", "registration.jsp");
 			RequestDispatcher view = request.getRequestDispatcher("msg_display.jsp");
 			view.forward(request,response);
@@ -106,7 +106,7 @@ public class Register extends HttpServlet {
 		
 		if(match==true){
 			try{if(null!=con)con.close();}catch(SQLException e){out.print(e.getMessage());}
-			request.setAttribute("message", "&#2340;&#2346;&#2366;&#2312;&#2325;&#2379;&#0032;&#2342;&#2352;&#2381;&#2340;&#2366;&#0032;&#2346;&#2361;&#2367;&#2354;&#2375;&#0032;&#2344;&#2376;&#0032;&#2349;&#2376;&#2360;&#2325;&#2375;&#2325;&#2379;&#0032;&#2341;&#2367;&#2351;&#2379;&#2404;");
+			request.setAttribute("message", "You were already registered.Please log in.");
 			request.setAttribute("link", "welcome.jsp");
 			RequestDispatcher view = request.getRequestDispatcher("msg_display.jsp");
 			view.forward(request,response);

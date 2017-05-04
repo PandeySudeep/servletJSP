@@ -109,26 +109,26 @@
 			</nav>
 			<article>
 				<h1>TERMS AND AGREEMENT</h1>
-				<p>The following terms and conditions applies to every registered users who log in to www.hamroaafno.com</p>
-				<p>www.hamroaafno.com is intended to serve Nepal and Nepalese nationals. All the registered users should understand that all the information that they
-				provide to www.hamroaafno.com is upon their will and that they allow www.hamroaafno.com to utilize such information for business purpose. All the payments
-				that are required to be made via www.hamroaafno.com will be through PayPal. Hamroaafno.com doesn't provide any additional security on the transactions and
-				financial information of the users. However, hamroaafno.com has strong trust on the services of PayPal. All the registered users are notified that there
-				contact information will be utilized by hamroaafno.com for business but however never be used to harm the registered users. If anything harmful occurs to
-				registered users, they should immediately notify hamroaafno.com and work together with hamroaafno.com to resolve the matter.</p>
+				<p>The following terms and conditions applies to every registered users who log in to www.upakaar.com</p>
+				<p>www.upakaar.com is intended to serve with decency. All the registered users should understand that all the information that they
+				provide to www.upakaar.com is upon their will and that they allow www.upakaar.com to utilize such information for business purpose. All the payments
+				that are required to be made via www.upakaar.com will be through PayPal. Upakaar.com doesn't provide any additional security on the transactions and
+				financial information of the users. However, upakaar.com has strong trust on the services of PayPal. All the registered users are notified that there
+				contact information will be utilized by upakaar.com for business but however never be used to harm the registered users. If anything harmful occurs to
+				registered users, they should immediately notify upakaar.com and work together with upakaar.com to resolve the matter.</p>
 				
-				<p>Hamroaafno.com will utilize SSL Security Certificate to encrypt the data that is transferred between user's browser and the server. This is the maximum
+				<p>Upakaar.com will utilize SSL Security Certificate to encrypt the data that is transferred between user's browser and the server. This is the maximum
 				level of data encryption security that will be implemented. However, this feature will not be included during the pre-release version until the day that
-				hamroaafno.com notifies of such service being implemented.</p>
+				upakaar.com notifies of such service being implemented.</p>
 				
-				<p>All the registered users agree (by signing in) that they will not sue hamroaafno.com for any matter in the court without first discussing the issue
-				with hamroaafno.com via email. Hamroaafno.com will always collaborate with the registered user to resolve the matter and avoid court and legal cases.</p>
+				<p>All the registered users agree (by signing in) that they will not sue upakaar.com for any matter in the court without first discussing the issue
+				with upakaar.com via email. Upakaar.com will always collaborate with the registered user to resolve the matter and avoid court and legal cases.</p>
 				
-				<p>Hamroaafno.com is an open source project for all Nepalese nationals interested to participate. The professionals accepted include - Analysts, Developers, Web Designers, Testers, Data Engineers. Please contact
-				 exec_rep@pandtek.com to apply and work at Hamroaafno.com. Let's take ourselves to the next level.</p>
+				<p>Upakaar.com is an open source project for all Indian nationals interested to participate. The professionals accepted include - Analysts, Developers, Web Designers, Testers, Data Engineers. Please contact
+				 exec_rep@pandtek.com to apply and work at Upakaar.com. Let's take ourselves to the next level.</p>
 			</article>
 			
-			<footer style="color:red">&#2360;&#2381;&#2357;&#2366;&#2327;&#2340;&#0032;&#2331; <%out.print(session.getAttribute("sessionattr"));%></footer>
+			<footer style="color:red">&#2360;&#2381;&#2357;&#2366;&#2327;&#2340;&#0032;&#2331;</footer>
 			
 		</div>
 	</body>

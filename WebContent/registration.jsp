@@ -7,7 +7,7 @@
     	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     	<meta name="viewport" content="width=device-width, initial-scale=1">
     	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-   		<title>Registration</title>
+   		<title>&#2313;&#2346;&#2325;&#2366;&#2352;</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
 		<style>
@@ -85,42 +85,42 @@
 					<form style="width:40%" action="tryregister" method="POST">
 						<div class="form-group">
 							<label>First Name</label>
-							<input type="text" name="firstname" class="form-control">
+							<input type="text" name="firstname" class="form-control" required>
 						</div>
 						<div class="form-group">
 							<label>Last Name</label>
-							<input type="text" name="lastname" class="form-control">
+							<input type="text" name="lastname" class="form-control" required>
 						</div>
 						<div class="form-group">
 							<label>Desired UserName</label>
-							<input type="text" name="username" class="form-control">
+							<input type="text" name="username" class="form-control" required>
 						</div>
 						<div class="form-group">
 							<label for="exampleInputPassword1">Desired Password</label>
-							<input type="password" name="pwd" class="form-control" id="exampleInputPassword1">
+							<input type="password" name="pwd" class="form-control" id="exampleInputPassword1" required>
 						</div>
 						<div class="form-group">
 							<label>Gender</label>
-								<select type="text" name="gender" class="form-control">
+								<select type="text" name="gender" class="form-control" required>
 									<option value="male">MALE</option>
 									<option value="female">FEMALE</option>
 								</select>
 						</div>
 						<div class="form-group">
 							<label>Age</label>
-							<input type="text" name="age" class="form-control">
+							<input type="text" name="age" class="form-control" required>
 						</div>
 						<div class="form-group">
 							<label for="exampleInputEmail1">Email address</label>
-							<input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+							<input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Email" required>
 						</div>
 						<div class="form-group">
 							<label>Phone (Optional)</label>
-							<input type="text" name="phone" class="form-control">
+							<input type="text" name="phone" class="form-control" required>
 						</div>
 						<div class="form-group">
 							<label>Country</label>
-								<select type="text" name="nationality" class="form-control">
+								<select type="text" name="nationality" class="form-control" required>
 									<option value="USA">USA</option>
 									<option value="CANADA">CANADA</option>
 									<option value="UK">UK</option>
