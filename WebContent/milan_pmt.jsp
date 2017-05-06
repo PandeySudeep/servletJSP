@@ -97,9 +97,9 @@
 			<article>
 				<h1>Milan/Vivah Membership</h1>
 				
-				<p>Membership is monthly only and each months costs 6.99 USD. Membership has to be renewed after month if interested to proceed.</p>
+				<p>Monthly Membership at 1.99 USD.</p>
 				<p>Monthly charge is non-refundable and non-cancellable under any circumstances including temporary/permanent shut down of Milan/Vivah.</p>
-				<p>Hamroaafno.com wishes every member good luck in finding suitable life-partner.</p>
+				<p>This helps supporting and maintaining Milan/Vivah application.</p>
 				
 				
 				<form method="post" action="${initParam['posturl']}">

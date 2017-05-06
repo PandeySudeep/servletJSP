@@ -115,7 +115,7 @@
 							<input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Email" required>
 						</div>
 						<div class="form-group">
-							<label>Phone (Optional)</label>
+							<label>Phone</label>
 							<input type="text" name="phone" class="form-control" required>
 						</div>
 						<div class="form-group">

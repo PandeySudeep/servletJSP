@@ -122,7 +122,7 @@
 							</select>
 						</div>
 					<div class="form-group">
-						<label>All Jobs Posted On And After</label>
+						<label>All Jobs Posted On And After(mm/dd/yyyy)</label>
 						<input type="date" name="posteddate" class="form-control" required>
 					</div>
 					<button type="submit" class="btn btn-primary">Find Jobs</button>

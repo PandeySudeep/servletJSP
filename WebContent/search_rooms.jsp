@@ -121,7 +121,7 @@
 							</select>
 					</div>	
 					<div class="form-group">
-						<label>All Rooms/Accomodation Posted On And After</label>
+						<label>All Rooms/Accomodation Posted On And After (mm/dd/yyyy)</label>
 						<input type="date" name="posteddate" class="form-control" required>
 						<button type="submit" class="btn btn-primary">Find Rooms/Accomodation</button>
 					</div>

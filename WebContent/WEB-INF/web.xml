@@ -47,7 +47,7 @@
   </context-param>
   <context-param>
     <param-name>returnurl2</param-name>
-    <param-value>http://www.hamroaafno.com/PaypalController2</param-value>
+    <param-value>http://www.upakaar.com/PaypalController2</param-value>
   </context-param>
   <servlet>
     <servlet-name>Registration</servlet-name>
